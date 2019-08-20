@@ -1,0 +1,15 @@
+= Greek Names in Software Projects
+
+This is a repo aimed to keep a list of all the different kinds of software projects whose names have a Greek origin. 
+
+== History
+
+The motivation for this came up from the http://www.jhug.gr/[Greek Java User Group] Slack group, where we've been having fun spotting all these software projects in the wild. At some point, I felt it'd be nice to start keeping track... 
+
+== The List
+
+=== Kubernetes 
+
+Site: https://kubernetes.io/
+
+What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
