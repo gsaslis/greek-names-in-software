@@ -8,15 +8,38 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 
 == The List
 
+
+=== Istio 
+
+* Site: https://github.com/istio/istio
+* Description: Connect, secure, control, and observe services. https://istio.io
+* What it means: Istio is the sail of a sailing boat/vessel.
+
+
+=== Kallithea 
+
+* Site: https://kallithea-scm.org/
+* Description: Kallithea, a free software source code management system supporting two leading version control systems, Mercurial and Git.
+* What it means: Usually a name given to areas with a nice view, as it literally translates to good ("kalli") view ("thea")
+
 === Kubernetes 
 
-Site: https://kubernetes.io/
-
-What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
+* Site: https://kubernetes.io/
+* Description: Production-Grade Container Scheduling and Management
+* What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
 
 
 === Portieris 
 
-Site: https://github.com/IBM/portieris
+* Site: https://github.com/IBM/portieris
+* Description: A Kubernetes Admission Controller for verifying image trust with Notary.
+* What it means: Portieris is the bouncer you'd find in a club. 
 
-What it means: Portieris is the bouncer you'd find in a club. 
+
+=== Synnefo 
+
+* Site: https://www.synnefo.org/
+* Description: Synnefo is open source cloud software used to create massively scalable IaaS clouds.
+* What it means: Synnefo means "cloud".
+
+
