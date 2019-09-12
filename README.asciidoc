@@ -36,6 +36,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * What it means: Portieris is the bouncer you'd find in a club. 
 
 
+=== Prometheus 
+
+* Site: https://github.com/prometheus/prometheus
+* Description: The Prometheus monitoring system and time series database. https://prometheus.io/
+* What it means: A name from Greek Mythology, of a Titan, who stole the fire from the gods and gave it to humanity. https://en.wikipedia.org/wiki/Prometheus
+
 === Synnefo 
 
 * Site: https://www.synnefo.org/
