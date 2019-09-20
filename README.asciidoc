@@ -22,12 +22,17 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Kallithea, a free software source code management system supporting two leading version control systems, Mercurial and Git.
 * What it means: Usually a name given to areas with a nice view, as it literally translates to good ("kalli") view ("thea")
 
+=== Kiali
+
+* Site: https://www.kiali.io/
+* Description: Kiali is an observability console for Istio with service mesh configuration capabilities. 
+* What it means: Imagine you're holding a pair of binoculars and a car horn suddenly goes off behind you. Yes, you've dropped the binoculars. They're broken in half. Each half is a "kiali". Also, a binocular - but who has "a" binocular these days?
+
 === Kubernetes 
 
 * Site: https://kubernetes.io/
 * Description: Production-Grade Container Scheduling and Management
 * What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
-
 
 === Portieris 
 
