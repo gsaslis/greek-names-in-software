@@ -9,6 +9,14 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 == The List
 
 
+=== Boskos
+
+* Site: https://github.com/kubernetes/test-infra/tree/master/boskos
+* Description: Boskos is a resource manager service, that handles and manages different kind of resources and transition between different states.
+* What it means: Boskos is a sheperd :sheep: in Greek
+
+
+
 === Istio 
 
 * Site: https://github.com/istio/istio
