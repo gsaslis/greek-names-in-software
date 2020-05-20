@@ -61,4 +61,10 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Synnefo is open source cloud software used to create massively scalable IaaS clouds.
 * What it means: Synnefo means "cloud".
 
+=== Scylla 
+
+* Site: https://www.scylladb.com/
+* Description: Scylla is a drop-in Apache Cassandra alternative big data database with ultra-low latency and extremely high throughput.
+* What it means: Legendary monster who lives on one side of a narrow channel of water, opposite her counterpart Charybdis.
+
 
