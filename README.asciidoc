@@ -61,4 +61,11 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Synnefo is open source cloud software used to create massively scalable IaaS clouds.
 * What it means: Synnefo means "cloud".
 
+=== Cassandra 
+
+* Site: https://cassandra.apache.org/
+* Description: Cassandra is a highly scalable and available distributed database.
+* What it means: Cassandra was a priestess of Apollo in Greek mythology cursed to utter true prophecies, but never to be believed.
+
+
 
