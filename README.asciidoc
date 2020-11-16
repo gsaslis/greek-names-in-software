@@ -8,6 +8,11 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 
 == The List
 
+=== Apollo
+
+* Site: https://www.apollographql.com
+* Description: Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud.
+* What it means: Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology.
 
 === Boskos
 
