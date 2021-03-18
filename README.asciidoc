@@ -27,6 +27,11 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Boskos is a resource manager service, that handles and manages different kind of resources and transition between different states.
 * What it means: Boskos is a sheperd :sheep: in Greek
 
+=== Cassandra 
+
+* Site: https://cassandra.apache.org/
+* Description: Cassandra is a highly scalable and available distributed database.
+* What it means: Priestess of Apollo in Greek mythology cursed to utter true prophecies, but never to be believed.
 
 === Istio 
 
