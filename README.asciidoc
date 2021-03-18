@@ -1,12 +1,19 @@
 = Greek Names in Software Projects
 
-This is a repo aimed to keep a list of all the different kinds of software projects whose names have a Greek origin. 
+This is a repo aimed to keep a list of all the different kinds of software projects whose names have a Greek origin.
 
 == History
 
-The motivation for this came up from the http://www.jhug.gr/[Greek Java User Group] Slack group, where we've been having fun spotting all these software projects in the wild. At some point, I felt it'd be nice to start keeping track... 
+The motivation for this came up from the http://www.jhug.gr/[Greek Java User Group] Slack group, where we've been having fun spotting all these software projects in the wild. At some point, I felt it'd be nice to start keeping track...
 
 == The List
+
+
+=== Android
+
+* Site: https://www.android.com/
+* Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
+* What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
 
 
 === Boskos
@@ -39,45 +46,43 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 === Kiali
 
 * Site: https://www.kiali.io/
-* Description: Kiali is an observability console for Istio with service mesh configuration capabilities. 
+* Description: Kiali is an observability console for Istio with service mesh configuration capabilities.
 * What it means: Imagine you're holding a pair of binoculars and a car horn suddenly goes off behind you. Yes, you've dropped the binoculars. They're broken in half. Each half is a "kiali". Also, a binocular - but who has "a" binocular these days?
 
-=== Kubernetes 
+=== Kubernetes
 
 * Site: https://kubernetes.io/
 * Description: Production-Grade Container Scheduling and Management
 * What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
 
-=== Paketo 
+=== Paketo
 
 * Site: https://paketo.io
 * Description: Modular Buildpacks, written in Go. Paketo Buildpacks provide language runtime support for applications. They leverage the Cloud Native Buildpacks framework to make image builds easy, performant, and secure.
-* What it means: Paketo means "package". 
+* What it means: Paketo means "package".
 
 
-=== Portieris 
+=== Portieris
 
 * Site: https://github.com/IBM/portieris
 * Description: A Kubernetes Admission Controller for verifying image trust with Notary.
-* What it means: Portieris is the bouncer you'd find in a club. 
+* What it means: Portieris is the bouncer you'd find in a club.
 
 
-=== Prometheus 
+=== Prometheus
 
 * Site: https://github.com/prometheus/prometheus
 * Description: The Prometheus monitoring system and time series database. https://prometheus.io/
 * What it means: A name from Greek Mythology, of a Titan, who stole the fire from the gods and gave it to humanity. https://en.wikipedia.org/wiki/Prometheus
 
-=== Synnefo 
+=== Synnefo
 
 * Site: https://www.synnefo.org/
 * Description: Synnefo is open source cloud software used to create massively scalable IaaS clouds.
 * What it means: Synnefo means "cloud".
 
-=== Scylla 
+=== Scylla
 
 * Site: https://www.scylladb.com/
 * Description: Scylla is a drop-in Apache Cassandra alternative big data database with ultra-low latency and extremely high throughput.
 * What it means: Legendary monster who lives on one side of a narrow channel of water, opposite her counterpart Charybdis.
-
-
