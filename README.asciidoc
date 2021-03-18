@@ -9,6 +9,13 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 == The List
 
 
+=== Android
+
+* Site: https://www.android.com/
+* Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
+* What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
+
+
 === Boskos
 
 * Site: https://github.com/kubernetes/test-infra/tree/master/boskos
@@ -80,9 +87,9 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Scylla is a drop-in Apache Cassandra alternative big data database with ultra-low latency and extremely high throughput.
 * What it means: Legendary monster who lives on one side of a narrow channel of water, opposite her counterpart Charybdis.
 
-
 === Thanos
 
 * Site: https://thanos.io/
 * Description: Thanos is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 * What it means: Thanos is a Greek masculine given name and surname, a short form of Athanasios meaning 'immortal'.
+
