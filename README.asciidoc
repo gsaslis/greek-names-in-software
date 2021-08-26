@@ -36,7 +36,7 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 === Exousia 
 
 * Site: https://github.com/eclipse-ee4j/exousia
-* Description: Exousia is a standalone implementation of [Jakarta Authorization](https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0).
+* Description: Exousia is a standalone implementation of https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0[Jakarta Authorization].
 * What it means: authority, power
 
 === Istio 
