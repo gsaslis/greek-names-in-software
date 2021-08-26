@@ -33,6 +33,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Cassandra is a highly scalable and available distributed database.
 * What it means: Priestess of Apollo in Greek mythology cursed to utter true prophecies, but never to be believed.
 
+=== Exousia 
+
+* Site: https://github.com/eclipse-ee4j/exousia
+* Description: Exousia is a standalone implementation of [Jakarta Authorization](https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0).
+* What it means: authority, power
+
 === Istio 
 
 * Site: https://github.com/istio/istio
