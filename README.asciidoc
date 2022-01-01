@@ -8,6 +8,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 
 == The List
 
+=== Agones
+
+* Site: https://github.com/googleforgames/agones
+* Description: Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes.
+* What it means: Agones, is derived from the Greek word agōn which roughly translates to “contest”, “competition at games” and “gathering”.
+
 === Apollo
 
 * Site: https://www.apollographql.com
