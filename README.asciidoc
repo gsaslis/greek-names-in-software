@@ -77,13 +77,17 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Modular Buildpacks, written in Go. Paketo Buildpacks provide language runtime support for applications. They leverage the Cloud Native Buildpacks framework to make image builds easy, performant, and secure.
 * What it means: Paketo means "package".
 
-
 === Portieris
 
 * Site: https://github.com/IBM/portieris
 * Description: A Kubernetes Admission Controller for verifying image trust with Notary.
 * What it means: Portieris is the bouncer you'd find in a club.
 
+=== Piraeus
+
+* Site: https://piraeus.io/
+* Description: A cloud native datastore for Kubernetes
+* What it means:  Is a port city in Greece
 
 === Prometheus
 
