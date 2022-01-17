@@ -26,6 +26,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
 * What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
 
+=== Athena (Project)
+
+* Site: https://en.wikipedia.org/wiki/Project_Athena
+* Description: Project Athena was a joint project of MIT, Digital Equipment Corporation, and IBM to produce a campus-wide distributed computing environment for educational use. It was launched in 1983, and research and development ran until June 30, 1991. As of 2020, Athena is still in production use at MIT.
+* What it means: The name of the ancient Greek goddess associated with wisdom, handicraft, and warfare. It is also how we Greeks call our capital, even today. "I like Athena" is sure to impress your Greek friends. ;) 
+
 === Axios
 
 * Site: https://github.com/axios/axios
@@ -69,6 +75,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Site: https://kallithea-scm.org/
 * Description: Kallithea, a free software source code management system supporting two leading version control systems, Mercurial and Git.
 * What it means: Usually a name given to areas with a nice view, as it literally translates to good ("kalli") view ("thea")
+
+=== Kerberos 
+
+* Site: https://web.mit.edu/kerberos/
+* Description: Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one another in a secure manner.
+* What it means: In Greek mythology, Cerberus (Greek: Κέρβερος Kérberos), often referred to as the hound of Hades, is a multi-headed dog that guards the gates of the Underworld to prevent the dead from leaving. 
 
 === Kiali
 
