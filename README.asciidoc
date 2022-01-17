@@ -88,6 +88,13 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Modular Buildpacks, written in Go. Paketo Buildpacks provide language runtime support for applications. They leverage the Cloud Native Buildpacks framework to make image builds easy, performant, and secure.
 * What it means: Paketo means "package".
 
+=== Peergos
+
+* Site: https://github.com/Peergos/Peergos
+* Description: A p2p, secure file storage, social network and application protocol. 
+* What it means: The name Peergos comes from the Greek word Πύργος (Pyrgos), which means stronghold or tower, but phonetically spelt with the nice connection to being peer-to-peer. Pronuniation: peer-goss (as in gossip).
+
+
 === Piraeus
 
 * Site: https://piraeus.io/
