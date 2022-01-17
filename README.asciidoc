@@ -26,6 +26,11 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
 * What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
 
+=== Axios
+
+* Site: https://github.com/axios/axios
+* Description: Promise based HTTP client for the browser and node.js
+* What it means: Axios means worthy, suitable, deserving.
 
 === Boskos
 
