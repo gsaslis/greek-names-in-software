@@ -26,6 +26,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
 * What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
 
+=== Athena (Amazon)
+
+* Site: https://aws.amazon.com/athena/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc
+* Description: Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
+* What it means: The name of the ancient Greek goddess associated with wisdom, handicraft, and warfare. It is also how we Greeks call our capital, even today. "I like Athena" is sure to impress your Greek friends. ;) 
+
 === Athena (Project)
 
 * Site: https://en.wikipedia.org/wiki/Project_Athena
