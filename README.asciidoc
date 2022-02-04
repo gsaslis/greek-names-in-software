@@ -26,6 +26,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud.
 * What it means: Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology.
 
+=== Argo
+
+* Site: https://argoproj.github.io/
+* Description: An umbrella project comprised of open source tools for Kubernetes to run workflows, manage clusters, and do GitOps right.
+* What it means: Argo was a ship built by Argus, one of the Argonauts, and was used to retrieve the Golden Fleece
+
 === Athena (Project)
 
 * Site: https://en.wikipedia.org/wiki/Project_Athena
