@@ -14,23 +14,29 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Agones is a library for hosting, running and scaling dedicated game servers on Kubernetes.
 * What it means: Agones, is derived from the Greek word agōn which roughly translates to “contest”, “competition at games” and “gathering”.
 
-=== Apollo
-
-* Site: https://www.apollographql.com
-* Description: Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud.
-* What it means: Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology.
-
 === Android
 
 * Site: https://www.android.com/
 * Description: Android is a mobile operating system based on a modified version of the Linux kernel, designed primarily for touchscreen mobile devices
 * What it means: Android is coined from the Greek root andr-, "man" (male) and the suffix -oid, "having the form or likeness of".
 
+=== Apollo
+
+* Site: https://www.apollographql.com
+* Description: Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud.
+* What it means: Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology.
+
+=== Argo
+
+* Site: https://argoproj.github.io/
+* Description: An umbrella project comprised of open source tools for Kubernetes to run workflows, manage clusters, and do GitOps right.
+* What it means: Argo was a ship built by Argus, one of the Argonauts, and was used to retrieve the Golden Fleece
+
 === Athena (Project)
 
 * Site: https://en.wikipedia.org/wiki/Project_Athena
 * Description: Project Athena was a joint project of MIT, Digital Equipment Corporation, and IBM to produce a campus-wide distributed computing environment for educational use. It was launched in 1983, and research and development ran until June 30, 1991. As of 2020, Athena is still in production use at MIT.
-* What it means: The name of the ancient Greek goddess associated with wisdom, handicraft, and warfare. It is also how we Greeks call our capital, even today. "I like Athena" is sure to impress your Greek friends. ;) 
+* What it means: The name of the ancient Greek goddess associated with wisdom, handicraft, and warfare. It is also how we Greeks call our capital, even today. "I like Athena" is sure to impress your Greek friends. ;)
 
 === Axios
 
@@ -44,43 +50,35 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Boskos is a resource manager service, that handles and manages different kind of resources and transition between different states.
 * What it means: Boskos is a sheperd :sheep: in Greek
 
-=== Cassandra 
+=== Cassandra
 
 * Site: https://cassandra.apache.org/
 * Description: Cassandra is a highly scalable and available distributed database.
 * What it means: Priestess of Apollo in Greek mythology cursed to utter true prophecies, but never to be believed.
 
-=== Exousia 
+=== Exousia
 
 * Site: https://github.com/eclipse-ee4j/exousia
 * Description: Exousia is a standalone implementation of https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0[Jakarta Authorization].
 * What it means: authority, power
 
-=== Istio 
+=== Istio
 
 * Site: https://github.com/istio/istio
 * Description: Connect, secure, control, and observe services. https://istio.io
 * What it means: Istio is the sail of a sailing boat/vessel.
 
-
-=== Omada 
-
-* Site: https://www.tp-link.com/en/omada-sdn/
-* Description: Omada’s Software Defined Networking (SDN) platform integrates network devices providing 100% centralized cloud management.
-* What it means: Greek word for "team". A group of people with the same goal.
-
-
-=== Kallithea 
+=== Kallithea
 
 * Site: https://kallithea-scm.org/
 * Description: Kallithea, a free software source code management system supporting two leading version control systems, Mercurial and Git.
 * What it means: Usually a name given to areas with a nice view, as it literally translates to good ("kalli") view ("thea")
 
-=== Kerberos 
+=== Kerberos
 
 * Site: https://web.mit.edu/kerberos/
 * Description: Kerberos is a computer-network authentication protocol that works on the basis of tickets to allow nodes communicating over a non-secure network to prove their identity to one another in a secure manner.
-* What it means: In Greek mythology, Cerberus (Greek: Κέρβερος Kérberos), often referred to as the hound of Hades, is a multi-headed dog that guards the gates of the Underworld to prevent the dead from leaving. 
+* What it means: In Greek mythology, Cerberus (Greek: Κέρβερος Kérberos), often referred to as the hound of Hades, is a multi-headed dog that guards the gates of the Underworld to prevent the dead from leaving.
 
 === Kiali
 
@@ -94,6 +92,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Production-Grade Container Scheduling and Management
 * What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
 
+=== Omada
+
+* Site: https://www.tp-link.com/en/omada-sdn/
+* Description: Omada’s Software Defined Networking (SDN) platform integrates network devices providing 100% centralized cloud management.
+* What it means: Greek word for "team". A group of people with the same goal.
+
 === Paketo
 
 * Site: https://paketo.io
@@ -103,9 +107,8 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 === Peergos
 
 * Site: https://github.com/Peergos/Peergos
-* Description: A p2p, secure file storage, social network and application protocol. 
+* Description: A p2p, secure file storage, social network and application protocol.
 * What it means: The name Peergos comes from the Greek word Πύργος (Pyrgos), which means stronghold or tower, but phonetically spelt with the nice connection to being peer-to-peer. Pronuniation: peer-goss (as in gossip).
-
 
 === Piraeus
 
@@ -142,4 +145,3 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Site: https://thanos.io/
 * Description: Thanos is a set of components that can be composed into a highly available metric system with unlimited storage capacity, which can be added seamlessly on top of existing Prometheus deployments.
 * What it means: Thanos is a Greek masculine given name and surname, a short form of Athanasios meaning 'immortal'.
-
