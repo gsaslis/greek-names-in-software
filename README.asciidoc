@@ -62,6 +62,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Exousia is a standalone implementation of https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0[Jakarta Authorization].
 * What it means: authority, power
 
+=== Fengari 
+
+* Site: https://fengari.io/
+* Description: Fengari is the Lua VM written in JavaScript. It uses JavaScript's garbage collector so that interoperability with the DOM is non-leaky.
+* What it means: A small rock in space that has served as the inspiration for endless songs, tales, games, poems and epic adventures: the Earth's moon (Φεγγάρι). From the verb φέγγω ("phéngo"), which means "to shine".
+
 === Istio
 
 * Site: https://github.com/istio/istio
