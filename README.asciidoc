@@ -92,6 +92,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Kiali is an observability console for Istio with service mesh configuration capabilities.
 * What it means: Imagine you're holding a pair of binoculars and a car horn suddenly goes off behind you. Yes, you've dropped the binoculars. They're broken in half. Each half is a "kiali". Also, a binocular - but who has "a" binocular these days?
 
+=== Kryo
+
+* Site: https://github.com/EsotericSoftware/kryo
+* Description: Kryo is a fast and efficient binary object graph serialization framework for Java.
+* What it means: It is similar to the greek word cryo, meaning icy cold, and related words (cryonics, etc) (source: https://groups.google.com/g/kryo-users/c/E95riwOlb7Y/m/2SwXQOYniaoJ)
+
 === Kubernetes
 
 * Site: https://kubernetes.io/
