@@ -104,12 +104,6 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Production-Grade Container Scheduling and Management
 * What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
 
-=== Omada
-
-* Site: https://www.tp-link.com/en/omada-sdn/
-* Description: Omada’s Software Defined Networking (SDN) platform integrates network devices providing 100% centralized cloud management.
-* What it means: Greek word for "team". A group of people with the same goal.
-
 === Paketo
 
 * Site: https://paketo.io
