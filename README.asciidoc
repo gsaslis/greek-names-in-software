@@ -114,7 +114,7 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 
 * Site: https://github.com/Peergos/Peergos
 * Description: A p2p, secure file storage, social network and application protocol.
-* What it means: The name Peergos comes from the Greek word Πύργος (Pyrgos), which means stronghold or tower, but phonetically spelt with the nice connection to being peer-to-peer. Pronuniation: peer-goss (as in gossip).
+* What it means: The name Peergos comes from the Greek word Πύργος (Pyrgos), which means stronghold or tower, but phonetically spelt with the nice connection to being peer-to-peer. Pronunciation: peer-goss (as in gossip).
 
 === Piraeus
 
