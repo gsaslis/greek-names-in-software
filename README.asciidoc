@@ -68,6 +68,13 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Fengari is the Lua VM written in JavaScript. It uses JavaScript's garbage collector so that interoperability with the DOM is non-leaky.
 * What it means: A small rock in space that has served as the inspiration for endless songs, tales, games, poems and epic adventures: the Earth's moon (Φεγγάρι). From the verb φέγγω ("phéngo"), which means "to shine".
 
+=== Helidon
+
+* Site: https://helidon.io/
+* Description: Helidon is a collection of Java libraries designed for creating microservices-based applications.
+* What it means: Helidon is a Greek word for swallow, a type of bird that according to Wikipedia has “a slender, streamlined body and long pointed wings, which allow great manoeuvrability and ... very efficient flight”. Perfect for darting through the clouds.
+
+
 === Istio
 
 * Site: https://github.com/istio/istio
