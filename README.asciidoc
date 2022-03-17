@@ -104,6 +104,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Production-Grade Container Scheduling and Management
 * What it means: https://en.wikipedia.org/wiki/Kubernetes[Kubernetes (κυβερνήτης, Greek for "governor", "helmsman" or "captain")]
 
+=== Kyverno
+
+* Site: https://github.com/kyverno/kyverno
+* Description: Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. Kyverno is designed to work nicely with tools you already use like kubectl, kustomize, and Git.
+* What it means: To govern (verb). Same origin as "Kubernetes" (fun fact: "kyvernetes" would have been a better pronounciation of the greek word behind it). 
+
 === Paketo
 
 * Site: https://paketo.io
