@@ -147,6 +147,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: The Prometheus monitoring system and time series database. https://prometheus.io/
 * What it means: A name from Greek Mythology, of a Titan, who stole the fire from the gods and gave it to humanity. https://en.wikipedia.org/wiki/Prometheus
 
+=== Sidero
+
+* Site: https://www.sidero.dev/
+* Description: Sidero is Kubernetes bare metal server provisioning and lifecycle management.
+* What it means: Sidero means "metal".
+
 === Synnefo
 
 * Site: https://www.synnefo.org/
