@@ -151,7 +151,7 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 
 * Site: https://www.sidero.dev/
 * Description: Sidero is Kubernetes bare metal server provisioning and lifecycle management.
-* What it means: Sidero means "metal".
+* What it means: Sidero means "iron".
 
 === Synnefo
 
