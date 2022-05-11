@@ -62,6 +62,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Exousia is a standalone implementation of https://jakarta.ee/specifications/authorization/2.0/authorization-spec-2.0[Jakarta Authorization].
 * What it means: authority, power
 
+=== Faros 
+
+* Site: https://www.faros.ai
+* Description: Faros is a value stream analysis platform focused on engineering productivity
+* What it means: Lighthouse
+
 === Fengari 
 
 * Site: https://fengari.io/
@@ -98,6 +104,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Site: https://www.kiali.io/
 * Description: Kiali is an observability console for Istio with service mesh configuration capabilities.
 * What it means: Imagine you're holding a pair of binoculars and a car horn suddenly goes off behind you. Yes, you've dropped the binoculars. They're broken in half. Each half is a "kiali". Also, a binocular - but who has "a" binocular these days?
+
+=== Klotho
+
+* Site: https://www.klo.dev/
+* Description: Klotho is a new development model focused on microservices and cloud applicaitons
+* What it means: https://en.wikipedia.org/wiki/Clotho[Mythological figure]. She is the one of the Three Fates
 
 === Kryo
 
