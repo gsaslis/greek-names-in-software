@@ -74,6 +74,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Fengari is the Lua VM written in JavaScript. It uses JavaScript's garbage collector so that interoperability with the DOM is non-leaky.
 * What it means: A small rock in space that has served as the inspiration for endless songs, tales, games, poems and epic adventures: the Earth's moon (Φεγγάρι). From the verb φέγγω ("phéngo"), which means "to shine".
 
+=== Gefyra
+
+* Site: https://github.com/gefyrahq/gefyra
+* Description: Gefyra is a toolkit written in Python to run a local development infrastructure for Kubernetes. Gefyra runs as a user-space app and controls the local Docker host and Kubernetes via the Kubernetes Python Client.
+* What it means: Bridge (Γέφυρα)
+
 === Helidon
 
 * Site: https://helidon.io/
