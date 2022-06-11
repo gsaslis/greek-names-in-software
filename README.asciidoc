@@ -32,6 +32,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: An umbrella project comprised of open source tools for Kubernetes to run workflows, manage clusters, and do GitOps right.
 * What it means: Argo was a ship built by Argus, one of the Argonauts, and was used to retrieve the Golden Fleece
 
+=== Artemis
+
+* Site: https://github.com/FORTH-ICS-INSPIRE/artemis
+* Description: ARTEMIS is an open-source tool, that implements a defense approach against BGP prefix hijacking attacks. 
+* What it means: In Greek mythology and religion, Artemis (/ˈɑːrtɛmɪs/; Greek: Ἄρτεμις) is the goddess of the hunt, the wilderness, wild animals, nature, vegetation, childbirth, the Moon, and chastity.
+
 === Athena (Project)
 
 * Site: https://en.wikipedia.org/wiki/Project_Athena
@@ -86,6 +92,11 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Helidon is a collection of Java libraries designed for creating microservices-based applications.
 * What it means: Helidon is a Greek word for swallow, a type of bird that according to Wikipedia has “a slender, streamlined body and long pointed wings, which allow great manoeuvrability and ... very efficient flight”. Perfect for darting through the clouds.
 
+=== Hephaestus
+
+* Site: https://github.com/hephaestus-compiler-project/hephaestus
+* Description: Hephaestus is a testing framework for validating static typing procedures in compilers. This is done by a combination of program generation and transformation-based compiler testing.
+* What it means: Hephaestus is the Greek god of blacksmiths, metalworking, carpenters, craftsmen, artisans, sculptors, metallurgy, fire, and volcanoes.
 
 === Istio
 
