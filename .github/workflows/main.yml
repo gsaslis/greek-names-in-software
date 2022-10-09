@@ -24,7 +24,7 @@ jobs:
         run: |
           mkdir -p $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys
           echo ${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }} | base64 --decode > $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys/librad.key
-          echo ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }} | rad auth --stdin
+          echo ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }} | rad auth --passphrase
 
       - name: Clone from Radicle
         run: |
