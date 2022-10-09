@@ -1,0 +1,46 @@
+name: Radicle Sync
+
+# Controls when the workflow will run
+on:
+  push:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Install radicle-cli
+        run: |
+          curl https://europe-west6-apt.pkg.dev/doc/repo-signing-key.gpg | sudo apt-key add -
+          echo deb https://europe-west6-apt.pkg.dev/projects/radicle-services radicle-cli main | sudo tee -a /etc/apt/sources.list.d/radicle-registry.list
+          sudo apt update
+          sudo apt install radicle-cli
+
+      - name: Setup Radicle Identity
+        run: |
+          mkdir -p $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys
+          echo ${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }} | base64 --decode > $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys/librad.key
+          echo ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }} | rad auth --name ${{ secrets.RADICLE_IDENTITY_NAME }} --stdin
+
+      - name: Clone from Radicle
+        run: |
+          rad clone ${{ secrets.RADICLE_PROJECT_ID }} --no-confirm
+          cd ${{ secrets.RADICLE_PROJECT_NAME }}
+      
+      - name: Fetch code from GitHub
+        run: |
+          export GH_REPO_URL=$( echo ${{ github.repositoryUrl }} \
+            | sed -e 's/git:\/\//git@/g' \
+            | sed -e 's/github.com\//github.com:/g')
+
+          git remote add github ${GH_REPO_URL}
+          git checkout -B ${{ github.ref }}  --track github/${{ github.ref }}
+          
+      - name: Push to Radicle Network
+        run: |
+          rad push 
+        
