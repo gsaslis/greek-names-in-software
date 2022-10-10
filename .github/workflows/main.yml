@@ -19,6 +19,7 @@ jobs:
           echo deb https://europe-west6-apt.pkg.dev/projects/radicle-services radicle-cli main | sudo tee -a /etc/apt/sources.list.d/radicle-registry.list
           sudo apt update
           sudo apt install radicle-cli
+          rad --version
 
       - name: Setup Radicle Identity
         run: |
