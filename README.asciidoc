@@ -111,6 +111,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Kallithea, a free software source code management system supporting two leading version control systems, Mercurial and Git.
 * What it means: Usually a name given to areas with a nice view, as it literally translates to good ("kalli") view ("thea")
 
+=== Katafygio
+
+* Site: https://github.com/bpineau/katafygio
+* Description: Katafygio discovers Kubernetes objects (deployments, services, ...), and continuously save them as yaml files in a git repository. This provides real time, continuous backups, and keeps detailled changes history.
+* What it means: "Katafygio" means refuge or shelter. If your Kubernetes resources are in any kind of danger, katafygio should be the git repo this tool creates where they can be safely stored.
+
 === Kerberos
 
 * Site: https://web.mit.edu/kerberos/
