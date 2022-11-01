@@ -1,4 +1,5 @@
 = Greek Names in Software Projects
+:toc:
 
 This is a repo aimed to keep a list of all the different kinds of software projects whose names have a Greek origin.
 
