@@ -190,6 +190,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: The Prometheus monitoring system and time series database. https://prometheus.io/
 * What it means: A name from Greek Mythology, of a Titan, who stole the fire from the gods and gave it to humanity. https://en.wikipedia.org/wiki/Prometheus
 
+=== Pyrsia
+
+* Site: https://github.com/pyrsia/pyrsia
+* Description: Decentralized Package Repository
+* What it means: It is the name of the optical telegraph invented in the 2nd century BCE. https://en.wikipedia.org/wiki/Phryctoria#Phryctoriae_and_Pyrseia
+
 === Sidero
 
 * Site: https://www.sidero.dev/
