@@ -217,7 +217,7 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 === Timoni
 
 * Site: https://timoni.sh/
-* Description: Timoni is a package manager for Kubernetes, powered by [CUE](https://cuelang.org/) and inspired by Helm.
+* Description: Timoni is a package manager for Kubernetes, powered by https://cuelang.org/[CUE] and inspired by Helm.
 * What it means: Timoni is a steering wheel. Not to be confused with **le**moni, which means - unsurprisingly - lemon. 
 
 === Theseus
