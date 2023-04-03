@@ -214,13 +214,17 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Scylla is a drop-in Apache Cassandra alternative big data database with ultra-low latency and extremely high throughput.
 * What it means: Legendary monster who lives on one side of a narrow channel of water, opposite her counterpart Charybdis.
 
+=== Timoni
+
+* Site: https://timoni.sh/
+* Description: Timoni is a package manager for Kubernetes, powered by [CUE](https://cuelang.org/) and inspired by Helm.
+* What it means: Timoni is a steering wheel. Not to be confused with **le**moni, which means - unsurprisingly - lemon. 
+
 === Theseus
 
 * Site: https://github.com/theseus-os/Theseus
 * Description: Theseus is a modern OS written from scratch in Rust that explores 𝐢𝐧𝐭𝐫𝐚𝐥𝐢𝐧𝐠𝐮𝐚𝐥 𝐝𝐞𝐬𝐢𝐠𝐧, novel OS structure, and state management. It strives to close the semantic gap between compiler and hardware to maximally leverage the power of language safety, and thus shift OS responsibilities like resource management into the compiler.
 * What it means: Theseus is the name of a king and hero from Athens, in ancient Greek Mythology. Theseus was also the name of my late (sigh) dog, but rumours that this Operating System was named after my dog are, as of yet, unconfirmed. 
-
-
 
 
 === Thanos
