@@ -106,6 +106,13 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Connect, secure, control, and observe services. https://istio.io
 * What it means: Istio is the sail of a sailing boat/vessel.
 
+=== Kairos
+
+* Site: https://github.com/kairos-io/kairos
+* Description: The immutable Linux meta-distribution for edge Kubernetes.
+* What it means: When everything else fails, and awkward silence seems undefeatable, "Kairos" (i.e. the weather), comes to save the day! Never again will shared elevator rides feel so awkward again! 
+
+
 === Kallithea
 
 * Site: https://kallithea-scm.org/
