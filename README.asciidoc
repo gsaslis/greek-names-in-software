@@ -28,6 +28,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Apollo is the industry-standard GraphQL implementation, providing the data graph layer that connects modern apps to the cloud.
 * What it means: Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology.
 
+=== Aporia
+
+* Site: https://www.aporia.com/
+* Description: Aporia is a company dedicated to Machine Learning monitoring
+* What it means: Aporia means question or  query 
+
 === Argo
 
 * Site: https://argoproj.github.io/
@@ -149,6 +155,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Klotho is a new development model focused on microservices and cloud applicaitons
 * What it means: https://en.wikipedia.org/wiki/Clotho[Mythological figure]. She is the one of the Three Fates
 
+=== Korifi
+
+* Site: https://github.com/cloudfoundry/korifi
+* Description: Cloud Foundry on Kubernetes
+* What it means: Korifi means summit (of a mountain). The highest point you can climb.
+
 === Kryo
 
 * Site: https://github.com/EsotericSoftware/kryo
@@ -214,6 +226,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Site: https://www.sidero.dev/
 * Description: Sidero is Kubernetes bare metal server provisioning and lifecycle management.
 * What it means: Sidero means "iron".
+
+=== Sosivio
+
+* Site: https://www.sosiv.io/
+* Description: Sosivio is predictive analysis for Kubernetes incidents
+* What it means: Sosivio means "lifejacket".
 
 === Synnefo
 
