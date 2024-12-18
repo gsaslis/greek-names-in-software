@@ -167,6 +167,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Kyverno is a policy engine designed for Kubernetes. It can validate, mutate, and generate configurations using admission controls and background scans. Kyverno policies are Kubernetes resources and do not require learning a new language. Kyverno is designed to work nicely with tools you already use like kubectl, kustomize, and Git.
 * What it means: To govern (verb). Same origin as "Kubernetes" (fun fact: "kyvernetes" would have been a better pronounciation of the greek word behind it). 
 
+=== Medusa
+
+* Site: https://github.com/medusajs/medusa
+* Description: Medusa is a set of commerce modules and tools that allow you to build rich, reliable, and performant commerce applications without reinventing core commerce logic. The modules can be customized and used to build advanced ecommerce stores, marketplaces, or any product that needs foundational commerce primitives.
+* What it means: In Greek mythology, Medusa is a Gorgon, a monstrous figure with snakes for hair, whose gaze turns anyone who looks at her into stone.
+
 === Odigos
 * Site: https://github.com/keyval-dev/odigos
 * Description: Odigos is an observability control plane. Start sending traces, metrics and logs to your favourite observability service (such as Datadog, Honeycomb, Grafana, etc) in a few clicks.
