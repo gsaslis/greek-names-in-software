@@ -14,24 +14,39 @@ jobs:
     steps:
 
       - name: Install radicle-cli
+        env:
+          RAD_HOME: ${{ github.workspace }}/.radicle
         run: |
-          curl https://europe-west6-apt.pkg.dev/doc/repo-signing-key.gpg | sudo apt-key add -
-          echo deb https://europe-west6-apt.pkg.dev/projects/radicle-services radicle-cli main | sudo tee -a /etc/apt/sources.list.d/radicle-registry.list
-          sudo apt update
-          sudo apt install radicle-cli
-          rad --version
-          rad auth --help
+          curl --show-error --silent --fail https://radicle.xyz/install | sh
+          echo "RAD_HOME=${{ github.workspace }}/.radicle" >> $GITHUB_ENV
+          echo "${RAD_HOME}/bin" >> $GITHUB_PATH
 
       - name: Setup Radicle Identity
-        run: |
-          mkdir -p $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys
-          echo ${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }} | base64 --decode > $HOME/.config/xyz.radicle.radicle-link/${{ secrets.RADICLE_IDENTITY_KEY_ID }}/keys/librad.key
-          rad auth --passphrase ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}
+        env:
+          RAD_PASSPHRASE: ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}
+        run: |          
+          echo "Home: $HOME"
+          rad --version          
+          rad config init --alias "${{ secrets.RADICLE_IDENTITY_ALIAS}}"
+          echo "${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle
+          echo "${{ secrets.RADICLE_IDENTITY_PUBLIC_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle.pub
+          rad auth 
+          rad node start
+          
+          max_retry=30
+          counter=0
+          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock
+          do
+             sleep 1
+             [[ counter -eq $max_retry ]] && echo "Failed" && exit 1
+             echo "Waiting for node to start... $counter"
+             ((counter++))
+          done
 
       - name: Clone from Radicle
         run: |
-          rad clone ${{ secrets.RADICLE_PROJECT_ID }} --no-confirm
-          cd ${{ secrets.RADICLE_PROJECT_NAME }}
+          rad clone "${{ secrets.RADICLE_PROJECT_ID }}" --no-confirm
+          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
       
       - name: Fetch code from GitHub
         run: |
@@ -44,5 +59,5 @@ jobs:
           
       - name: Push to Radicle Network
         run: |
-          rad push 
+          git push rad ${{ github.ref }}
         
