@@ -49,18 +49,22 @@ jobs:
       - name: Clone from Radicle
         run: |
           rad clone "${{ secrets.RADICLE_PROJECT_ID }}" --no-confirm
-          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
-      
+
       - name: Fetch code from GitHub
         run: |
-          export GH_REPO_URL=$( echo ${{ github.repositoryUrl }} \
-            | sed -e 's/git:\/\//git@/g' \
-            | sed -e 's/github.com\//github.com:/g')
+          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
+          
+          export GH_REPO_URL=$( echo "${{ github.repositoryUrl }}" \
+            | sed -e 's/git:\/\//https:\/\//g'
+          )
 
           git remote add github ${GH_REPO_URL}
-          git checkout -B ${{ github.ref }}  --track github/${{ github.ref }}
+          git remote -v
+          git fetch --all
+          git checkout -b ${{ github.ref_name }} --track github/${{ github.ref_name }}
+          
           
       - name: Push to Radicle Network
         run: |
-          git push rad ${{ github.ref }}
+          git push rad ${{ github.ref_name }}
         
