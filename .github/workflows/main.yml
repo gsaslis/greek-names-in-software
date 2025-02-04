@@ -19,6 +19,7 @@ jobs:
         run: |
           curl --show-error --silent --fail https://radicle.xyz/install | sh
           echo "RAD_HOME=${{ github.workspace }}/.radicle" >> $GITHUB_ENV
+          echo "RAD_PASSPHRASE=${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}" >> $GITHUB_ENV
           echo "${RAD_HOME}/bin" >> $GITHUB_PATH
 
       - name: Install helper packages
@@ -26,8 +27,6 @@ jobs:
           sudo apt-get -y install socat
 
       - name: Setup Radicle Identity
-        env:
-          RAD_PASSPHRASE: ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}
         run: |          
           echo "Home: $HOME"
           rad --version          
