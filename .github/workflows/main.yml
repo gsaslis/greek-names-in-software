@@ -21,6 +21,10 @@ jobs:
           echo "RAD_HOME=${{ github.workspace }}/.radicle" >> $GITHUB_ENV
           echo "${RAD_HOME}/bin" >> $GITHUB_PATH
 
+      - name: Install helper packages
+        run: |
+          sudo apt-get -y install socat
+
       - name: Setup Radicle Identity
         env:
           RAD_PASSPHRASE: ${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}
