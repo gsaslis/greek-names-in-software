@@ -26,7 +26,7 @@ jobs:
         run: |
           sudo apt-get -y install socat
 
-      - name: Setup Radicle Identity
+      - name: Setup Radicle Identity & Node
         run: |          
           echo "Home: $HOME"
           rad --version          
@@ -34,17 +34,19 @@ jobs:
           echo "${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle
           echo "${{ secrets.RADICLE_IDENTITY_PUBLIC_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle.pub
           rad auth 
+
+          rad config unset preferredSeeds
+          rad config 
+          
           rad node start
           
-          max_retry=30
-          counter=0
-          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock
-          do
-             sleep 1
-             [[ counter -eq $max_retry ]] && echo "Failed" && exit 1
-             echo "Waiting for node to start... $counter"
-             ((counter++))
-          done
+          echo "Waiting some minutes for node to start"
+          # todo: wait properly
+          sleep 180
+          
+          rad node status
+
+
 
       - name: Clone from Radicle
         run: |
@@ -67,4 +69,10 @@ jobs:
       - name: Push to Radicle Network
         run: |
           git push rad ${{ github.ref_name }}
-        
+          
+          echo "waiting to sync with the network"
+          # todo: wait properly
+          sleep 120
+          
+          rad node stop
+          
