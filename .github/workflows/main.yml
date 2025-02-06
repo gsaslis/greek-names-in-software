@@ -48,7 +48,7 @@ jobs:
              sleep 1
              [[ counter -eq $max_retry ]] && echo "Failed" && break 
              echo "Waiting for node to start... $counter"
-             ((counter++))
+             counter=$((counter+1))
           done
 
           echo "Waiting for node to be connected to other nodes"
@@ -59,7 +59,7 @@ jobs:
              sleep 1
              [[ counter -eq $max_retry ]] && echo "Failed" && break 
              echo "Waiting for node to connect... $counter"
-             ((counter++))
+             counter=$((counter+1))
           done
           
           rad node status
