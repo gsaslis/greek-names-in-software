@@ -1,0 +1,99 @@
+name: Radicle Sync
+
+# Controls when the workflow will run
+on:
+  push:
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Install radicle-cli
+        env:
+          RAD_HOME: ${{ github.workspace }}/.radicle
+        run: |
+          curl --show-error --silent --fail https://radicle.xyz/install | sh
+          echo "RAD_HOME=${{ github.workspace }}/.radicle" >> $GITHUB_ENV
+          echo "RAD_PASSPHRASE=${{ secrets.RADICLE_IDENTITY_PASSPHRASE }}" >> $GITHUB_ENV
+          echo "${RAD_HOME}/bin" >> $GITHUB_PATH
+
+      - name: Install helper packages
+        run: |
+          sudo apt-get -y install socat
+
+      - name: Setup Radicle Identity & Node
+        run: |          
+          echo "Home: $HOME"
+          rad --version          
+          rad config init --alias "${{ secrets.RADICLE_IDENTITY_ALIAS}}"
+          echo "${{ secrets.RADICLE_IDENTITY_PRIVATE_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle
+          echo "${{ secrets.RADICLE_IDENTITY_PUBLIC_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle.pub
+          rad auth 
+
+      - name: Start Radicle Node
+        run: |          
+          rad config unset preferredSeeds
+          rad config 
+          
+          rad node start
+          
+          echo "Waiting for node to start"
+          max_retry=30
+          counter=0
+          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock
+          do
+             sleep 1
+             [[ counter -eq $max_retry ]] && echo "Failed" && break 
+             echo "Waiting for node to start... $counter"
+             counter=$((counter+1))
+          done
+
+      - name: Wait for Node to connect to peers
+        run: |          
+          max_retry=30
+          counter=0
+          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock | grep '"state":{"connected"'
+          do
+             sleep 1
+             [[ counter -eq $max_retry ]] && echo "Failed" && break 
+             echo "Waiting for node to connect... $counter"
+             counter=$((counter+1))
+          done
+          
+          rad node status
+
+
+
+      - name: Clone from Radicle
+        run: |
+          rad clone "${{ secrets.RADICLE_PROJECT_ID }}" --no-confirm
+
+      - name: Fetch code from GitHub
+        working-directory: ${{ github.workspace }}/${{ secrets.RADICLE_PROJECT_NAME }}
+        run: |
+          
+          export GH_REPO_URL=$( echo "${{ github.repositoryUrl }}" \
+            | sed -e 's/git:\/\//https:\/\//g'
+          )
+
+          git remote add github ${GH_REPO_URL}
+          git remote -v
+          git fetch --all
+          git checkout -b ${{ github.ref_name }} --track github/${{ github.ref_name }}
+          
+          
+      - name: Push to Radicle Network
+        working-directory: ${{ github.workspace }}/${{ secrets.RADICLE_PROJECT_NAME }}
+        run: |
+          git push rad ${{ github.ref_name }}
+          
+          echo "Ensuring sync with the network"
+          rad sync --announce
+          
+          rad node stop
+          
