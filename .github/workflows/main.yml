@@ -35,6 +35,8 @@ jobs:
           echo "${{ secrets.RADICLE_IDENTITY_PUBLIC_KEY }}" | base64 --decode > ${{ github.workspace }}/.radicle/keys/radicle.pub
           rad auth 
 
+      - name: Start Radicle Node
+        run: |          
           rad config unset preferredSeeds
           rad config 
           
@@ -51,7 +53,8 @@ jobs:
              counter=$((counter+1))
           done
 
-          echo "Waiting for node to be connected to other nodes"
+      - name: Wait for Node to connect to peers
+        run: |          
           max_retry=30
           counter=0
           until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock | grep '"state":{"connected"'
@@ -71,8 +74,8 @@ jobs:
           rad clone "${{ secrets.RADICLE_PROJECT_ID }}" --no-confirm
 
       - name: Fetch code from GitHub
+        working-directory: ${{ github.workspace }}/${{ secrets.RADICLE_PROJECT_NAME }}
         run: |
-          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
           
           export GH_REPO_URL=$( echo "${{ github.repositoryUrl }}" \
             | sed -e 's/git:\/\//https:\/\//g'
@@ -85,13 +88,12 @@ jobs:
           
           
       - name: Push to Radicle Network
+        working-directory: ${{ github.workspace }}/${{ secrets.RADICLE_PROJECT_NAME }}
         run: |
-          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
           git push rad ${{ github.ref_name }}
           
-          echo "waiting to sync with the network"
-          # todo: wait properly
-          sleep 120
+          echo "Ensuring sync with the network"
+          rad sync --announce
           
           rad node stop
           
