@@ -68,6 +68,7 @@ jobs:
           
       - name: Push to Radicle Network
         run: |
+          cd "${{ secrets.RADICLE_PROJECT_NAME }}"
           git push rad ${{ github.ref_name }}
           
           echo "waiting to sync with the network"
