@@ -40,9 +40,27 @@ jobs:
           
           rad node start
           
-          echo "Waiting some minutes for node to start"
-          # todo: wait properly
-          sleep 180
+          echo "Waiting for node to start"
+          max_retry=30
+          counter=0
+          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock
+          do
+             sleep 1
+             [[ counter -eq $max_retry ]] && echo "Failed" && break 
+             echo "Waiting for node to start... $counter"
+             ((counter++))
+          done
+
+          echo "Waiting for node to be connected to other nodes"
+          max_retry=30
+          counter=0
+          until echo '{"command": "sessions"}' | socat - UNIX-CONNECT:${{ github.workspace }}/.radicle/node/control.sock | grep '"state":{"connected"'
+          do
+             sleep 1
+             [[ counter -eq $max_retry ]] && echo "Failed" && break 
+             echo "Waiting for node to connect... $counter"
+             ((counter++))
+          done
           
           rad node status
 
