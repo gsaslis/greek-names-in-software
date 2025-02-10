@@ -1,4 +1,4 @@
-name: Radicle Sync
+name: Mirror to Radicle
 
 # Controls when the workflow will run
 on:
