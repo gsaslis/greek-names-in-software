@@ -131,6 +131,12 @@ The motivation for this came up from the http://www.jhug.gr/[Greek Java User Gro
 * Description: Katafygio discovers Kubernetes objects (deployments, services, ...), and continuously save them as yaml files in a git repository. This provides real time, continuous backups, and keeps detailled changes history.
 * What it means: "Katafygio" means refuge or shelter. If your Kubernetes resources are in any kind of danger, katafygio should be the git repo this tool creates where they can be safely stored.
 
+=== Keras
+
+* Site: https://keras.io/
+* Description: Keras is an open-source library and multi-backend framework that provides a Python interface for artificial neural networks and deep learning.
+* What it means: The name derives from the Ancient Greek word κέρας (Keras) meaning 'horn'.
+
 === Kerberos
 
 * Site: https://web.mit.edu/kerberos/
